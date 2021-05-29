@@ -8,4 +8,4 @@
 
 How to Library "Keyboard.h"(วิธีใช้"Keyboard.h") : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/
 
-Cycle pattern(ลายวงจร) : https://www.img.in.th/image/t1OzWB
+Cycle pattern PCB (ลายวงจรแผ่นปริ้น) : https://www.img.in.th/image/t1OzWB
