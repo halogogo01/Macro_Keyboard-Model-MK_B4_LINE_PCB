@@ -6,23 +6,23 @@
 -นี่เป็นCodeต้นแบบของ Macor Keyboard รุ่น : "MK_B4_LINE_PCB" สำหรับArduino Pro Micro Atmega32u4.
 -คุณสามารถสร้าง4ปุ่ม และกำหนดคุณสมบัติให้มันได้ ในCodeภาษาC โดยการใช้เครื่องมือ ArduinoIDE.
 
-#How to Library "Keyboard.h"(วิธีใช้"Keyboard.h") : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/
+# How to Library "Keyboard.h"(วิธีใช้"Keyboard.h") : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/
 
 Cycle pattern PCB (ลายวงจรแผ่นปริ้น) : https://www.img.in.th/image/t1OzWB
 
 Circuit diagram (ผังวงจร) : https://www.img.in.th/image/t8bmZH
 
-#Functions in Library "Keyboard.h"(คำสั่งฟังก์ชั่นการทำงานในไลบรารี่"Keyboard.h")
-Keyboard.begin() //สั่งเริ่มเลียนแบบเป็นแป้นพิมพ์ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardbegin
-Keyboard.end() //สั่งหยุดการจำลองเป็นแป้นพิมพ์ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardend/
-Keyboard.press() //สั่งกดปุ่มบนแป้นพิมพ์ค้างไว้ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardpress
-Keyboard.release() //สั่งยกเลิกปุ่มที่กดค้างเอาไว้บนแป้นพิมพ์ โดยการระบุปุ่มที่ต้องการให้ยกเลิก : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardrelease
-Keyboard.releaseAll() //สั่งปล่อยปุ่มที่กดค้างเอาไว้ไว้บนแป้นพิมพ์ทั้งหมด : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardreleaseall
-Keyboard.print() //สั่งพิมข้อความอันโนมัต โดยกำหนดข้อความไว้ภายใน : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardprint
-Keyboard.println() //สั้งพิมข้อความอันโนมัต โดยกำหนดข้อความไว้ภายใน ตามด้วยขึ้นบรรทัด : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardprintln
-Keyboard.write() //สั่งการกดปุ่มพิเศษบนแป้นพิมพ์ "Ctrl"/"Alt"/"Enter" และอีกมากมาย รวมถึงใช้"ASCII Code(แอสกีโค้ด)"ได้ด้วย : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardwrite
+# Functions in Library "Keyboard.h"(คำสั่งฟังก์ชั่นการทำงานในไลบรารี่"Keyboard.h")
+- Keyboard.begin() //สั่งเริ่มเลียนแบบเป็นแป้นพิมพ์ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardbegin
+- Keyboard.end() //สั่งหยุดการจำลองเป็นแป้นพิมพ์ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardend/
+- Keyboard.press() //สั่งกดปุ่มบนแป้นพิมพ์ค้างไว้ : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardpress
+- Keyboard.release() //สั่งยกเลิกปุ่มที่กดค้างเอาไว้บนแป้นพิมพ์ โดยการระบุปุ่มที่ต้องการให้ยกเลิก : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardrelease
+- Keyboard.releaseAll() //สั่งปล่อยปุ่มที่กดค้างเอาไว้ไว้บนแป้นพิมพ์ทั้งหมด : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardreleaseall
+- Keyboard.print() //สั่งพิมข้อความอันโนมัต โดยกำหนดข้อความไว้ภายใน : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardprint
+- Keyboard.println() //สั้งพิมข้อความอันโนมัต โดยกำหนดข้อความไว้ภายใน ตามด้วยขึ้นบรรทัด : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardprintln
+- Keyboard.write() //สั่งการกดปุ่มพิเศษบนแป้นพิมพ์ "Ctrl"/"Alt"/"Enter" และอีกมากมาย รวมถึงใช้"ASCII Code(แอสกีโค้ด)"ได้ด้วย : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardwrite
 
-#Keyboard Modifiers(ตัวปรับแต่งคีย์บอร์ด) : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
+# Keyboard Modifiers(ตัวปรับแต่งคีย์บอร์ด) : https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
 KEY_F1 //ปุ่ม "F1"
 KEY_F2 //ปุ่ม "F2"
 KEY_F3 //ปุ่ม "F3"
